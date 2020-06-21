@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 
 import api from '../../services/api';
 
+import './styles';
+
 export default class Main extends Component{
   state = {
     products: [],
@@ -19,9 +21,16 @@ export default class Main extends Component{
   }
 
   render(){
+    const {products} = this.state;
+
     return(
       <div className='product-list'>
-        {this.state.products.map(product => (<h2 key={product._id}>{product.title}</h2>))}
+        {products.map(product => 
+          <article key={product._id}>
+            <strong>{product.title}</strong>
+            <p>{product.description}</p>
+            <a href="#">Acessar</a>
+          </article>)}
       </div>
     )
   }
