@@ -44,3 +44,8 @@ Sendo que basicamente o método render, fica observando todas as variáveis que 
 <br/>
 Portanto as variáveis sempre serão atualizadas e é refletido diretamente nos componentes.
 </p>
+
+<strong>react-router-dom</strong>
+<p>
+Vamos utilizar o <em>react-router-dom</em>, para controlarmos a navegação da nossa aplicação.
+</p>
