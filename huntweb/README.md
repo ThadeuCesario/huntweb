@@ -38,3 +38,9 @@ const [name, setName] = useState('Thadeu');
 Veja que possuo o 'name' contém o valor.<br/>
 Também possuo o 'setName', que serve para alterar o valor do 'name'.
 </p>
+<p>
+Além disso, precisamos saber que o react trabalha com programação reativa.
+Sendo que basicamente o método render, fica observando todas as variáveis que temos no estado, e qualquer alteração nessas variáveis o método render será executado novamente.
+<br/>
+Portanto as variáveis sempre serão atualizadas e é refletido diretamente nos componentes.
+</p>
